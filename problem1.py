@@ -28,5 +28,5 @@ def multiplo(cond):
         cont = cont + 1
     return soma
 
-
-print(multiplo(1000))
+if __name__=="__main":
+    print(multiplo(1000))
